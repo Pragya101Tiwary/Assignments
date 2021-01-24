@@ -18,7 +18,7 @@ public class Exercise2{
 	}
 	
 	public static void main(String[] args){
-		System.out.println(" Choose from the following options:\n____________________________________\n");
+		System.out.println("\n Choose from the following options:\n____________________________________\n");
 		System.out.println("Press '1' for selecting Red Traffic Light.\nPress '2' for selecting Yellow Traffic Light.\nPress '3' for selecting Green Traffic Light.\n");
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter here:  ");

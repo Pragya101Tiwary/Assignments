@@ -11,12 +11,6 @@ public class Exercise8{
 			case 6:
 			case 8:
 				return true;
-			case 1:
-			case 3:
-			case 5:
-			case 7:
-			case 9:
-				return false;
 		}
 		return false;
 	}
