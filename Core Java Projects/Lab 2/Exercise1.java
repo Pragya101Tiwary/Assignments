@@ -5,6 +5,8 @@ import java.util.Arrays;
 public class Exercise1{
 	
 	private static int getSecondSmallest(int[] numberArray){
+		//Arrays.sort(numberArray);
+		Arrays<Integer> ar = new ArrayList<Integer>(numberArray);
 		Arrays.sort(numberArray);
 		return numberArray[1];
 	}
@@ -24,5 +26,6 @@ public class Exercise1{
 			}
 			System.out.println("\nThe second smallest element of the given array is:\n\n\t\t" + getSecondSmallest(numberArray));
 		}
+		sc.close();
 	}
 }
